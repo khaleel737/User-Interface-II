@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header {
@@ -130,6 +130,7 @@ border-radius: 10px;
     justify-content: center;
     justify-content: space-between;
     padding: 0% 1%;
+
 }
 
 #section-three img {
@@ -209,32 +210,48 @@ footer {
 
     .Image-galaxy {
         background-image: url(../Assets/Image1.jpg);
+        height: 40vh;
+        background-size: 100% 100%;
+
     }
 
     #section-two {
         width: 50%;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 7% 0;
+        padding: 4% 4%;
     }
 
     #section-two img {
-        width: 50%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
         border-radius: 10px;
+        margin: 10% 0;
         }
 
         #section-three {
         width: 50%;    
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 7% 0;
+        padding: 4% 4%;
         }
     
         #section-three img {
-            width: 50%;
-            height: 70%;
+            width: 100%;
+            height: 100%;
             border-radius: 10px;
+            margin: 10% 0;
             }
     
         .complete-div {
             display: flex;
         }
 
+        .footer-section h2 {
+            display: none;
+        }
 }
